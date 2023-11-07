@@ -5,3 +5,9 @@
 * git commit -m 'short comment of a change'
 * git push - выгрузка в удаленный репозиторий
 
+1.создать пустой репозиторий на гитхабе без адми
+2.git init
+  git add .
+  git commit -m "first commit" 
+git remote add origin git@github.com:abnosome/Marathon.git
+git push -u origin master
